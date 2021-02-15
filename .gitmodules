@@ -1,0 +1,12 @@
+[submodule "Sources/Base"]
+  path = Sources/Base
+  url = https://github.com/DreamyCecil/SE1-EngineBase.git
+[submodule "Sources/Executables"]
+  path = Sources/Executables
+  url = https://github.com/DreamyCecil/SE1-Executables.git
+[submodule "Sources/SDK"]
+  path = Sources/SDK
+  url = https://github.com/DreamyCecil/SE1-GameSDK.git
+[submodule "Sources/Tools"]
+  path = Sources/Tools
+  url = https://github.com/DreamyCecil/SE1-Tools.git
