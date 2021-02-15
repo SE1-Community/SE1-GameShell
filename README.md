@@ -1,6 +1,8 @@
 # Serious Engine
 
-This is the source code for Serious Engine v.1.10, including the following projects:
+This is a customly refactored fork of Croteam's Serious Engine v1.10 source code ( https://github.com/Croteam-official/Serious-Engine ).
+
+Includes the following projects:
 
 * `DedicatedServer`
 * `Ecc` The *Entity Class Compiler*, a custom build tool used to compile *.es files
