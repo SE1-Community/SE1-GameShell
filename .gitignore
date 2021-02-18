@@ -23,12 +23,14 @@
 *.exe
 *.out
 *.app
+*.bat
 !Bison.exe
 !Flex.exe
 
 # CMake Build dirs (temp)
 Build/
 Debug/
+!Bin/Debug
 
 # Visual Studio
 *.vs
