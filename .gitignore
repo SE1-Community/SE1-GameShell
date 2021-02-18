@@ -50,7 +50,7 @@ Sources/ipch/
 
 # Generated configuration files
 *.plr
-Temp/
+Temp/*
 !Temp/empty
 *.log
 *.rpt	# crashinfo
@@ -62,11 +62,11 @@ Scripts/PersistentSymbols.ini
 SaveGame/*
 
 # Custom Serious Sam content
-Levels/
+Levels/*
 !Levels/empty
-Models/
-Screenshots/
-Scripts/Addons/
-Sounds/
-Textures/
+Models/*
+Screenshots/*
+Scripts/Addons/*
+Sounds/*
+Textures/*
 __*.gro
