@@ -1,27 +1,27 @@
-# Serious Engine
+# Serious Engine 1
 
 This is a customly refactored fork of Croteam's Serious Engine v1.10 source code ( https://github.com/Croteam-official/Serious-Engine ).
 
 Includes the following projects:
 
+* `DecodeReport` Used to decode crash *.rpt files
 * `DedicatedServer`
+* `Depend` Used to build a list of dependency files based on a list of root files
 * `Ecc` The *Entity Class Compiler*, a custom build tool used to compile *.es files
 * `Engine` Serious Engine 1.10
 * `EngineGUI` Common GUI things for game tools
 * `Entities` All the entity logic
-* `GameGUI` Common GUI things for game tools
 * `Game` All the game logic
+* `GameAgent` The serverlist masterserver written in Python
+* `GameGUI` Common GUI things for game tools
+* `LWSkaExporter` Exporter for use in LightWave
+* `MakeFont` Used for generating *.fnt files
 * `Modeler` Serious Modeler
 * `RCon` Used to connect to servers using an admin password
 * `SeriousSam` The main game executable
+* `Shaders` Compiled shaders
 * `SkaStudio` Serious Ska Studio
 * `WorldEditor` Serious Editor
-* `DecodeReport` Used to decode crash *.rpt files
-* `Depend` Used to build a list of dependency files based on a list of root files
-* `LWSkaExporter` Exporter for use in LightWave
-* `MakeFont` Used for generating *.fnt files
-* `Shaders` Compiled shaders
-* `GameAgent` The serverlist masterserver written in Python
 * `libogg`, `libvorbis` Third party libraries used for playing OGG-encoded ingame music (see http://www.vorbis.com/ for more information)
 
 These have been modified to run correctly under the recent version of Windows. (Tested: Win7 x64, Win8 x64, Win8.1 x64)
@@ -65,7 +65,7 @@ Common problems
 ---------------
 
 Before starting the build process, make sure you have a "Temp" folder in your development directory. If it doesn't exist, create it.
-SeriousSkaStudio has some issues with MFC windows that can prevent the main window from being displayed properly.
+SkaStudio has some issues with MFC windows that can prevent the main window from being displayed properly.
 
 License
 -------
